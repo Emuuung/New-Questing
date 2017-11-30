@@ -70,6 +70,16 @@ local meetKyogre			     = require('Quests/Hoenn/meetKyogre')
 local beatDeoxys				 = require('Quests/Hoenn/beatDeoxys')
 local e4Hoenn					 = require('Quests/Hoenn/e4Hoenn')
 
+--Sinnoh
+local CoalBadgeQuest				= require('Quests/Sinnoh/CoalBadgeQuest')
+local ForestBadgeQuest				= require('Quests/Sinnoh/ForestBadgeQuest')
+local CobbleBadgeQuest				= require('Quests/Sinnoh/CobbleBadgeQuest')
+local FenBadgeQuest					= require('Quests/Sinnoh/FenBadgeQuest')
+local RelicBadgeQuest				= require('Quests/Sinnoh/RelicBadgeQuest')
+local MineBadgeQuest				= require('Quests/Sinnoh/MineBadgeQuest')
+local IcicleBadgeQuest				= require('Quests/Sinnoh/IcicleBadgeQuest')
+local BeaconBadgeQuest				= require('Quests/Sinnoh/BeaconBadgeQuest')
+
 local quests = {
 	-- Kanto Quests
 	StartKantoQuest:new(),
@@ -133,7 +143,17 @@ local quests = {
 	ToMossdeepCity:new(),
 	meetKyogre:new(),
 	beatDeoxys:new(),
-	e4Hoenn:new()
+	e4Hoenn:new(),
+	
+	--SinnohQuest
+	CoalBadgeQuest:new(),
+	ForestBadgeQuest:new(),
+	CobbleBadgeQuest:new(),
+	FenBadgeQuest:new(),
+	RelicBadgeQuest:new(),
+	MineBadgeQuest:new(),
+	IcicleBadgeQuest:new(),
+	BeaconBadgeQuest:new()
 }
 
 function QuestManager:new(o)
